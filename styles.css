@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+div .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 5% 5% 0% 0%;
+}
+.main {
+  width: 400px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  background: rgb(255, 255, 255);
+  -ms-transform: translate(-50%, -50%); /* for IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* for Safari */
+}
+
+h1 {
+  position: relative;
+  float: left;
+  left: 100px;
+  top: 30px;
+  font-size: 25px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+
+div .info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 400px;
+}
+
+div .p1 {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 60px;
+  top: -10%;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500px;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  width: 320px;
+  height: 80px;
+  position: absolute;
+  text-align: center;
+  left: 10%;
+  top: 400px;
+  border-radius: 10px;
+}
+
+.plan p {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.change {
+  float: right;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(245, 75%, 52%);
+  top: -20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.msc {
+  float: left;
+  top: -3px;
+  margin: 20px;
+  position: relative;
+}
+.annual {
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+.money {
+  float: left;
+  position: relative;
+  left: -90px;
+  top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.buttons {
+  background-color: hsl(245, 75%, 52%);
+  width: 320px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  left: 10%;
+  top: 490px;
+  border-radius: 10px;
+
+  box-shadow: 0 15px 15px -6px hsl(228, 81%, 80%);
+}
+
+.btn1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  position: relative;
+}
+
+.btn2 {
+  position: relative;
+  float: right;
+  top: 320px;
+  left: -150px;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(224, 23%, 55%);
+}
+
+.btn2:hover {
+  cursor: pointer;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  background-color: hsl(268, 100%, 49%);
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.change:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
